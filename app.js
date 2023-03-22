@@ -2,7 +2,7 @@ const btn = document.getElementById('btn');
 // console.log(btn);
 let render = document.getElementById('joke');
 
-btn.addEventListener('click', () => {
+btn.addEventListener('click', async() => {
 	// Make a request for a user with a given ID
 
 
@@ -31,6 +31,6 @@ btn.addEventListener('click', () => {
 	}
 
 
-
+	
 	
 });
